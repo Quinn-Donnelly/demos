@@ -1,0 +1,12 @@
+<div class="model-form">
+  <form #modelForm=ngForm (ngSubmit)="onSubmit(modelForm)" [hidden]="submitted">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" [(ngModel)]="model.name" name="name" required class="form-control" id="name">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <div [hidden]="!submitted">
+    Thanks for submitting, you can submit again in {{submissionTracker.nextSubmitDelay}} seconds.
+  </div>
+</div>

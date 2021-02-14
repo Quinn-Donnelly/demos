@@ -1,0 +1,17 @@
+.form-demo-container {
+
+}
+
+.form-demo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "forms output";
+}
+
+.output {
+  grid-area: output;
+}
+
+.forms {
+  grid-area: forms;
+}
