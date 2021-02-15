@@ -1,0 +1,20 @@
+.app > main {
+  padding-top: 3em;
+}
+
+a.no-style:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a.no-style:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a.no-style:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}

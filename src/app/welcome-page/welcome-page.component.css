@@ -1,0 +1,22 @@
+.welcome-page {
+  display: grid;
+  grid-template-areas: "links main";
+  grid-template-columns: 1fr 8fr;
+}
+
+.link-col {
+  grid-area: links;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcome-panel {
+  grid-area: main;
+  display: grid;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.welcome-panel > h1 {
+  text-align: center;
+}

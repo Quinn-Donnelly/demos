@@ -7,7 +7,7 @@ import { ModelFormComponent } from './model-form/model-form.component';
 import { JsonPrinterComponent } from './json-printer/json-printer.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {FormManagerService} from './form-manager.service';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
