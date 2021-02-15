@@ -1,4 +1,4 @@
-<mat-expansion-panel *ngFor="let jsonInfo of jsonInfoArray">
+<mat-expansion-panel *ngFor="let jsonInfo of jsonInfoArray.reverse()">
   <mat-expansion-panel-header>
     <h3>{{jsonInfo.title}}</h3>
   </mat-expansion-panel-header>

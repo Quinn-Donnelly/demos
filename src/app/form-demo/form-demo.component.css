@@ -2,6 +2,10 @@
 
 }
 
+.icon {
+  font-size: 1.3em;
+}
+
 .form-demo {
   display: grid;
   grid-template-columns: 1fr 1fr;

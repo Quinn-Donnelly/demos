@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormManagerService} from '../form-manager.service';
-import {NgForm} from "@angular/forms";
+import {NgForm} from '@angular/forms';
 
 export interface ModelFormData {
   name: string;
