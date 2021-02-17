@@ -16,7 +16,7 @@ export class FormManagerService {
   constructor() { }
 
   public submit(formInfo: FormInfo): void {
-    const newValue = this.formInformation$.value;
+    const newValue = Array.from(this.formInformation$.value);
     newValue.push(formInfo);
     this.formInformation$.next(newValue);
   }

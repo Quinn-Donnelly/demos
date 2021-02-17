@@ -10,6 +10,7 @@ import {FormManagerService} from './form-manager.service';
 import {FormBuilder, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import {MatIconModule} from '@angular/material/icon';
+import {NgPipesModule} from 'ngx-pipes';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatExpansionModule,
     ReactiveFormsModule,
     FormsModule,
-    MatIconModule
+    MatIconModule,
+    NgPipesModule
   ]
 })
 export class FormDemoModule { }
